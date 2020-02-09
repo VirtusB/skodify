@@ -1,0 +1,139 @@
+#background {
+    background-color: #000;
+    background-image: url("../images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+#loginContainer * {
+    color: #fff;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-weight: normal;
+    line-height: 1em;
+    box-sizing: border-box;
+}
+
+#loginContainer i {
+    font-family: 'Font Awesome\ 5 Free' !important;
+    font-weight: 600 !important;
+    color: #07d159;
+}
+
+#loginContainer {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1024px;
+}
+
+#inputContainer {
+    width: 400px;
+    padding: 45px;
+    float: left;
+    border-right: 1px solid #999;
+}
+
+#inputContainer h2 {
+    text-align: center;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"] {
+    display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+    outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #eee;
+    opacity: 1; /* Firefox */
+}
+
+#inputContainer label {
+    display: none;
+    color: #a0a0a0;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+#inputContainer button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 250px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 41px;
+    width: 100%;
+}
+
+#inputContainer button:hover {
+    cursor: pointer;
+}
+
+.hasAccountText span {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.hasAccountText a {
+    text-decoration: none;
+}
+
+.hasAccountText {
+    text-align: center;
+}
+
+#registerForm {
+    display: none;
+}
+
+#loginText {
+    padding: 45px;
+    display: table-cell;
+}
+
+#loginText h1 {
+    color: #07d159;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#loginText h2 {
+    margin: 35px 0;
+}
+
+#loginText ul {
+    padding: 0;
+}
+
+#loginText ul li {
+    font-size: 20px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.error-message {
+    color: #07d159 !important;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 15px;
+}

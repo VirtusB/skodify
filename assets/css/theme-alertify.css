@@ -1,0 +1,121 @@
+/**
+Nyt tema 
+*/
+
+.ajs-message.ajs-custom { 
+    color: #fff !important;  
+    background-color: #2ebd59 !important;  
+    border-color: #2ebd59 !important; 
+}
+
+.ajs-message.ajs-customError {
+    color: #fff !important;  
+    background-color: #ad2e2e !important;  
+    border: none !important;
+}
+
+.alertify .ajs-dialog {
+    /* background-color: #333; */
+    background-color: #181818;
+    -webkit-box-shadow: 0 15px 20px 0 rgba(0, 0, 0, .25);
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, .25);
+    border-radius: 2px
+}
+
+.alertify .ajs-header {
+    color: #fff;
+    font-weight: 700;
+    /* background: #333; */
+    background: #181818;
+    border-bottom: #eee 1px solid;
+    border-radius: 2px 2px 0 0
+}
+
+.alertify .ajs-body {
+    /* height: 375px; */
+}
+
+input.ajs-input {
+    color: #fff;
+    background: #333;
+}
+
+button.ajs-button.ajs-ok {
+    color: #2ebd59;
+}
+
+button.ajs-button.ajs-ok:hover {
+    cursor: pointer;
+}
+
+button.ajs-button.ajs-cancel:hover {
+    cursor: pointer;
+}
+
+.alertify .ajs-body {
+    color: #fff;
+}
+
+.alertify .ajs-body .ajs-content .ajs-input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 2px;
+    border: 1px solid #ccc
+}
+
+.ajs-content i {
+    font-size: 3rem;
+}
+
+.ajs-content {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+
+.alertify .ajs-body .ajs-content p {
+    margin: 0
+}
+
+.alertify .ajs-footer {
+    /* background: #333; */
+    background: #181818;
+    border-top: #eee 1px solid;
+    border-radius: 0 0 2px 2px
+}
+
+.alertify .ajs-footer .ajs-buttons .ajs-button {
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+
+.alertify-notifier .ajs-message {
+    background: rgba(255, 255, 255, .95);
+    color: #000;
+    text-align: center;
+    border: solid 1px #ddd;
+    border-radius: 2px
+}
+
+.alertify-notifier .ajs-message.ajs-success {
+    color: #fff;
+    background: rgba(91, 189, 114, .95);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, .5)
+}
+
+.alertify-notifier .ajs-message.ajs-error {
+    color: #fff;
+    background: rgba(217, 92, 92, .95);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, .5)
+}
+
+.alertify-notifier .ajs-message.ajs-warning {
+    background: rgba(252, 248, 215, .95);
+    border-color: #999
+}
